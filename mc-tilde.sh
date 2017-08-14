@@ -1,4 +1,4 @@
-cp -R etc /
+cp etc/apt/sources.list.d/tilde.list /etc/apt/sources.list.d/tilde.list
 apt-get update
 apt-get install -y tilde-keyring
 apt-get update
